@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+}
+
+/******BACKGROUND IMAGE**********/
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
+
+#largeImage {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+#largeImage {
+   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(185,9,11,.3) 100%), url(../trainingdaybg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   padding: 200px 25px;
+}
+
+#largeImage:hover {
+    background-image: url(../trainingdaybg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+
+
+
+#header{
+    background: black;
+    color: white;
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#header a { 
+    font-family: helvetica;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: #B9090B;
+}
+
+/******NETFLIX LOGO**********/
+.logo {
+    background: url(../netflixlogo.png) no-repeat left center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 25px 55px 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.leftMenu {
+    float: left;
+    display: inline-block;
+    background: black;
+}
+
+.leftMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leftMenu ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.leftMenu ul li a {
+    color: white;
+}
+
+.leftMenu ul li a.dropdown {
+    color: #B9090B;
+}
+
+.rightMenu {
+    float: right;
+    display: inline-block;
+    color: black;
+    background: black;
+}
+
+.rightMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rightMenu ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.rightMenu ul li a {
+    color: white;
+}
+
+.description-box {
+    width: 50%;
+}
+
+.description-box h1 {
+    margin: 0;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 5px 10px #000;
+}
+
+.description-box h3 {
+    font-family: helvetica, sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+    text-shadow: 3px 3px #000;
+}
+
+
+.description-box h4 {
+    margin: 0px 0px 10px 0px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: whitesmoke;
+    text-shadow: 5px 3px #000;
+}
+
+.description-box p {
+    color: whitesmoke;
+    font-family: helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    margin: 15 0 50px 0;
+    text-shadow: 2px 2px #000;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #B9090B;
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 17px;
+    border-radius: 5px;
+}
+
+/*******BUTTON 1&2*********/
+.button1:hover {
+    background: rgba(185,9,11,.5);
+}
+
+.button2:hover {
+    background: rgba(0,0,0,.5);
+    border: 2px solid rgba(0,0,0,.5);
+    
+}
+
+.button2 {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 17px;
+    border-radius: 5px;
+}
+
+/***********VIDEO SECTION***************/
+
+#videoSection {
+    width: 100%;
+    background: black;
+}
+
+#row {
+    width: 100%;
+    font-size: 0;
+}
+
+.videoBoxes {
+    display: inline-block;
+    background: red;
+    width: 300px;
+    margin: .1%;
+    min-height: 150px;
+    font-size: 16px;
+    padding: 24px; 
+}
+
+.videoBoxes h4 {
+    font-family: helvetica;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.videoBoxes p {
+    display: none;
+}
+
+.video1:hover {
+    border: 3px solid black;
+}
+
+.video2:hover {
+    border: 3px solid black;
+}
+
+.video3:hover {
+    border: 3px solid black;
+}
+
+.video4:hover {
+    border: 3px solid black;
+}
+
+.video5:hover {
+    border: 3px solid black;
+}
+
+.video6:hover {
+    border: 3px solid black;
+}
+
+.video7:hover {
+    border: 3px solid black;
+}
+
+.video8:hover {
+    border: 3px solid black;
+}
+
+
+.video1 {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/fd/5e/66/fd5e662dce1a3a8cd192a5952fa64f02.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video2 {
+    background-image: url(http://graphicdesignjunction.com/wp-content/uploads/2011/12/grey-movie-poster.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video3 {
+    background-image: url(http://www.impawards.com/2012/posters/looper_ver17_xlg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video4 {
+    background-image: url(http://www.jewelseinc.com/wp-content/gallery/news/lats-friday-poster.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video5 {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/ca/42/aa/ca42aa89f41a4591fee843fee2d61be7.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video6 {
+    background-image: url(https://coregeek.files.wordpress.com/2010/03/triangle.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video7 {
+    background-image: url(http://www.fatmovieguy.com/wp-content/uploads/2013/05/Snitch-Movie-Poster.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video8 {
+    background-image: url(http://img.moviepostershop.com/the-hangover-movie-poster-2009-1020488737.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*******Media Queries for Mobile*********/
+
+@media only screen and (max-width: 600px) {
+    
+    .videoBoxes {
+        width: 95%;
+        margin: 2.5%
+    }
+    .videoBoxes h4 {
+        font-family: helvetica;
+        font-weight: 105;
+        font-size: 35px;
+    }
+    
+    .videoBoxes p {
+        display: block;
+        font-family: helvetica;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    
+}
+
+
+
+
